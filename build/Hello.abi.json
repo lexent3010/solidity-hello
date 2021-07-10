@@ -1,0 +1,42 @@
+{
+	"ABI version": 2,
+	"header": ["pubkey", "time", "expire"],
+	"functions": [
+		{
+			"name": "constructor",
+			"inputs": [
+				{"name":"count","type":"uint256"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "getHello",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"hello","type":"uint256"}
+			]
+		},
+		{
+			"name": "setHello",
+			"inputs": [
+				{"name":"count","type":"uint256"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "_hello",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"_hello","type":"uint256"}
+			]
+		}
+	],
+	"data": [
+	],
+	"events": [
+	]
+}
